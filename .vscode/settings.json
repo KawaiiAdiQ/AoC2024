@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.twig": "html",
+        "iostream": "cpp",
+        "ostream": "cpp"
+    }
+}
