@@ -8,7 +8,7 @@ My run at AoC 2024, using C++.
 | 2   | [Day 2](https://adventofcode.com/2024/day/2)            | :white_check_mark: |
 | 3   | [Day 3](https://adventofcode.com/2024/day/3)            | :white_check_mark: |
 | 4   | [Day 4](https://adventofcode.com/2024/day/4)            | :white_check_mark: |
-| 5   | [Day 5](https://adventofcode.com/2024/day/5)            | :x:          |
+| 5   | [Day 5](https://adventofcode.com/2024/day/5)            | :white_check_mark: |
 | 6   | [Day 6](https://adventofcode.com/2024/day/6)            | :x: |
 | 7   | [Day 7](https://adventofcode.com/2024/day/7)            | :x:          |
 | 8   | [Day 8](https://adventofcode.com/2024/day/8)            | :x:          |
