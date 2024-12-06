@@ -2,14 +2,14 @@
 
 My run at AoC 2024, using C++.
 
-| Day | Challenge Link                                         | Status       |
+| Day | Challenge Link                                          | Status       |
 |-----|---------------------------------------------------------|--------------|
 | 1   | [Day 1](https://adventofcode.com/2024/day/1)            | :white_check_mark: |
 | 2   | [Day 2](https://adventofcode.com/2024/day/2)            | :white_check_mark: |
 | 3   | [Day 3](https://adventofcode.com/2024/day/3)            | :white_check_mark: |
 | 4   | [Day 4](https://adventofcode.com/2024/day/4)            | :white_check_mark: |
 | 5   | [Day 5](https://adventofcode.com/2024/day/5)            | :white_check_mark: |
-| 6   | [Day 6](https://adventofcode.com/2024/day/6)            | :x: |
+| 6   | [Day 6](https://adventofcode.com/2024/day/6)            | :white_check_mark: |
 | 7   | [Day 7](https://adventofcode.com/2024/day/7)            | :x:          |
 | 8   | [Day 8](https://adventofcode.com/2024/day/8)            | :x:          |
 | 9   | [Day 9](https://adventofcode.com/2024/day/9)            | :x:          |
