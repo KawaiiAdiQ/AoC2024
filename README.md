@@ -11,7 +11,7 @@ My run at AoC 2024, using C++.
 | 5   | [Day 5](https://adventofcode.com/2024/day/5)            | :white_check_mark: |
 | 6   | [Day 6](https://adventofcode.com/2024/day/6)            | :white_check_mark: |
 | 7   | [Day 7](https://adventofcode.com/2024/day/7)            | :white_check_mark: |
-| 8   | [Day 8](https://adventofcode.com/2024/day/8)            | :x:          |
+| 8   | [Day 8](https://adventofcode.com/2024/day/8)            | :white_check_mark: |
 | 9   | [Day 9](https://adventofcode.com/2024/day/9)            | :x:          |
 | 10  | [Day 10](https://adventofcode.com/2024/day/10)          | :x:          |
 | 11  | [Day 11](https://adventofcode.com/2024/day/11)          | :x:          |
