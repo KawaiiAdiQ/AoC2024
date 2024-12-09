@@ -2,8 +2,8 @@
 
 My run at AoC 2024, using C++.
 
-| Day | Challenge Link                                          | Status       |
-|-----|---------------------------------------------------------|--------------|
+| Day | Challenge Link                                          | Status             |
+|-----|---------------------------------------------------------|--------------------|
 | 1   | [Day 1](https://adventofcode.com/2024/day/1)            | :white_check_mark: |
 | 2   | [Day 2](https://adventofcode.com/2024/day/2)            | :white_check_mark: |
 | 3   | [Day 3](https://adventofcode.com/2024/day/3)            | :white_check_mark: |
@@ -12,7 +12,7 @@ My run at AoC 2024, using C++.
 | 6   | [Day 6](https://adventofcode.com/2024/day/6)            | :white_check_mark: |
 | 7   | [Day 7](https://adventofcode.com/2024/day/7)            | :white_check_mark: |
 | 8   | [Day 8](https://adventofcode.com/2024/day/8)            | :white_check_mark: |
-| 9   | [Day 9](https://adventofcode.com/2024/day/9)            | :x:          |
+| 9   | [Day 9](https://adventofcode.com/2024/day/9)            | :white_check_mark: |
 | 10  | [Day 10](https://adventofcode.com/2024/day/10)          | :x:          |
 | 11  | [Day 11](https://adventofcode.com/2024/day/11)          | :x:          |
 | 12  | [Day 12](https://adventofcode.com/2024/day/12)          | :x:          |
