@@ -4,48 +4,39 @@ using namespace std;
 
 typedef long long ll;
 
-float norm(pair<ll, ll> xOld, pair<ll, ll> xNew){
-    ll xSquared = (xOld.first - xNew.first) * (xOld.first - xNew.first);
-    ll ySquared = (xOld.second - xNew.second) * (xOld.second - xNew.second);
+void GEM(const double A[4], const double b[2], double x[2]){
+    double factor = A[2] / A[0];
+    double A3 = A[3] - factor * A[1];
+    double b1 = b[1] - factor * b[0];
 
-    return sqrt(xSquared + ySquared);
-}
-
-void jacobi(const pair<ll, ll> A[2], pair<ll, ll> x, pair<ll, ll> b){
-    // solve Ax=b
-
-    pair<ll, ll> xNew = x;
-    int iterCount = 0;
-    
-    do{
-        xNew.first = (b.first/A[0].first) - (xNew.second * A[0].second / A[0].first);
-        xNew.second = (b.second/A[1].second) - (xNew.first * A[1].first / A[1].second);
-        iterCount++;
-    } while(norm(x, xNew) > 1e-5 || iterCount < 150);
-
-    x = xNew;
+    x[1] = b1 / A3;
+    x[0] = (b[0] - (A[1] * x[1])) / A[0];
 }
 
 int main(){
-    int ax, ay, bx, by, px, py;
+    double ax, ay, bx, by, px, py;
     ll res = 0;
 
-    while(scanf(" Button A: X%d, Y%d ", &ax, &ay) == 2){
-        int r1 = scanf(" Button B: X%d, Y%d ", &bx, &by);
-        int r2 = scanf(" Prize: X=%d, Y=%d ", &px, &py);
-        if(r1 != 2 || r2 !=2) break;
+    while(scanf(" Button A: X%lf, Y%lf ", &ax, &ay) == 2){
+        int r1 = scanf(" Button B: X%lf, Y%lf ", &bx, &by);
+        int r2 = scanf(" Prize: X=%lf, Y=%lf ", &px, &py);
+        if(r1 != 2 || r2 != 2) break;
 
-        ll llpx = px + 10000000000000;
-        ll llpy = py + 10000000000000;
+        px += 10000000000000;
+        py += 10000000000000;
 
-        pair<ll, ll> A[2];
-        A[0] = {(ll)ax, (ll)bx};
-        A[1] = {(ll)ay, (ll)by};
-        pair<ll, ll> x = { 0, 0 };
-        pair<ll, ll> b = { llpx, llpy };
+        double A[4] = { ax, bx, ay, by };
+        double b[2] = { px, py };
+        double x[2];
 
-        GEM(A, x, b);
-        cout << x.first << " " << x.second << endl;
+        GEM(A, b, x);
+
+        bool xOK = b[0] == A[0] * round(x[0]) + A[1] * round(x[1]);
+        bool yOK = b[1] == A[2] * round(x[0]) + A[3] * round(x[1]);
+
+        if(xOK && yOK){
+            res += x[0] * 3 + x[1];
+        }
     }
 
     cout << res << endl;
