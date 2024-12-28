@@ -28,9 +28,12 @@ My run at AoC 2024, using C++.
 | 22  | [Day 22](https://adventofcode.com/2024/day/22)          | :white_check_mark: |
 | 23  | [Day 23](https://adventofcode.com/2024/day/23)          | :white_check_mark: |
 | 24  | [Day 24](https://adventofcode.com/2024/day/24)          | :white_check_mark: |
-| 25  | [Day 25](https://adventofcode.com/2024/day/25)          | :x:          |
+| 25  | [Day 25](https://adventofcode.com/2024/day/25)          | :white_check_mark: |
 
-### Description
+![Completed](completed.png "Comleted AoC 2024")
+
+
+### Notes
 
 for each new day:
 ```bash
